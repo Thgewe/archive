@@ -1,0 +1,21 @@
+.button {
+
+  padding: 10px 20px;
+  color: var(--color-text-primary);
+  background-color: var(--color-bg-secondary);
+  font-size: var(--text-size-button);
+  border: none;
+  border-radius: var(--border-radius-sm);
+  cursor: pointer;
+
+  &:hover {
+
+  }
+  &.light {
+
+  }
+  &.text {
+    background-color: transparent;
+    text-decoration: underline;
+  }
+}

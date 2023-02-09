@@ -1,0 +1,14 @@
+.block {
+  margin-top: 0.6rem;
+}
+.headline {
+  font-size: var(--text-size-title-md);
+  font-weight: 400;
+  padding-bottom: 0.2rem;
+  margin-bottom: 0.2rem;
+  border-bottom: 1px solid var(--color-border);
+}
+.text {
+  font-size: var(--text-size-sm);
+  line-height: calc(var(--text-size-sm) * var(--line-height-coef));
+}

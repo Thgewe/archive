@@ -1,0 +1,9 @@
+.archive {
+  display: flex;
+  height: 100%;
+
+}
+.main {
+  flex: 2;
+  background-color: var(--color-bg-primary);
+}

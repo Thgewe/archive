@@ -1,0 +1,24 @@
+.item {
+  display: block;
+  text-decoration: none;
+  padding: 14px;
+  color: var(--color-text-primary);
+  font-size: var(--text-size-md);
+  background-color: var(--color-bg-secondary);
+  transition: var(--transition-default);
+  border-image: linear-gradient(to right, var(--color-bg-secondary) , var(--color-border));
+  border-image-slice: 1;
+  & + & {
+    border-top: 1px solid ;
+  }
+  &:hover {
+    //background-color: var(--color-bg-primary);
+    background: linear-gradient(to right, var(--color-bg-secondary), var(--color-bg-primary));
+  }
+
+
+  &.active {
+    //background-color: var(--color-bg-primary);
+    background: linear-gradient(to right, var(--color-bg-secondary), var(--color-bg-primary));
+  }
+}
